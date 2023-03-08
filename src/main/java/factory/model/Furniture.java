@@ -1,7 +1,5 @@
-package factory;
+package factory.model;
 
 public abstract class Furniture {
-   int legs;
-
-    public void printFurnitureDescription;
+    public abstract String getDescription();
 }
