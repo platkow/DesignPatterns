@@ -1,9 +1,9 @@
 package furniturefactorytest;
 
-import factory.model.Locker;
-import factory.model.Table;
-import factory.modelfactory.LockerProducer;
-import factory.modelfactory.TableProducer;
+import factory.furniture.model.Locker;
+import factory.furniture.model.Table;
+import factory.furniture.modelfactory.LockerProducer;
+import factory.furniture.modelfactory.TableProducer;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;

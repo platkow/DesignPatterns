@@ -1,4 +1,4 @@
-package factory.model;
+package factory.furniture.model;
 
 public class Table extends Furniture {
     private int legs;

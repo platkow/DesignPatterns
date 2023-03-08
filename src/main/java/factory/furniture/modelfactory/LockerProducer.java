@@ -1,6 +1,6 @@
-package factory.modelfactory;
+package factory.furniture.modelfactory;
 
-import factory.model.Furniture;
+import factory.furniture.model.Furniture;
 
 public class LockerProducer implements FurnitureFactory{
 
