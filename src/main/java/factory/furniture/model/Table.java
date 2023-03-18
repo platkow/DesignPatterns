@@ -30,7 +30,7 @@ public class Table extends Furniture {
     public String getDescription() {
         return "Furniture name: Table" +
                 "\nAmount of legs: " + getLegs() +
-                "\nCountertop material " + getCountertopMaterial() +
+                "\nCountertop material: " + getCountertopMaterial() +
                 "\nLegs material: " + getLegsMaterial();
     }
 
