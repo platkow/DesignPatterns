@@ -1,13 +1,11 @@
 package builder.model;
 
 import lombok.Builder;
-import lombok.Getter;
-import lombok.ToString;
+import lombok.Data;
 
 @Builder
-@Getter
-@ToString
-public class Book {
+@Data
+public class BookWithoutGetterFirst {
     private final String title;
     private final String author;
     private final int publicationYear;
@@ -15,7 +13,7 @@ public class Book {
     private final int ISBN;
 
     public String getPaperBookDescription(){
-       return "Book " +
+        return "Book " +
                 "title: " +  getTitle() + "," +
                 " Author: " +  getAuthor() + "," +
                 " publication year: " +  getPublicationYear() + "," +
