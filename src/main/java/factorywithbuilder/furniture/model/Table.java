@@ -1,7 +1,6 @@
-package factorywithbuilder.model;
+package factorywithbuilder.furniture.model;
 
 import lombok.Builder;
-import lombok.Data;
 import lombok.Getter;
 
 @Builder

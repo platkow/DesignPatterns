@@ -1,4 +1,4 @@
-package factorywithbuilder.modelfactory;
+package factorywithbuilder.furniture.modelfactory;
 
 import factory.furniture.model.Furniture;
 
